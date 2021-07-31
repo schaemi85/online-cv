@@ -3,190 +3,198 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Emilien Schaffner
+    tagline: Full Stack Developer <br /> DevOps Engineer <br /> & Cloud enthusiast 🚀
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    # email: emilien.schaffner@gmail.com
+    # phone: +4179 694 58 81
+    # website: blog.webjeda.com #do not add http://
+    linkedin: emilienschaffner
+    # xing: alandoe
+    github: schaemi85
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: 🇫🇷&nbsp;&nbsp;French
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: 🇬🇧&nbsp;&nbsp;English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: 💻&nbsp;&nbsp;Learn / experiment
         link:
 
-      - item: Snowboarding
+      - item: 🎸&nbsp;&nbsp;Guitar
         link:
 
-      - item: Cooking
+      - item: 👪&nbsp;&nbsp;Family time
         link:
+
+      - item: 🏄‍♂️&nbsp;&nbsp;Stand Up Paddle
+        link:
+
+      - item: 🎲&nbsp;&nbsp;Board Games
+        link:
+
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm a Software Engineer / DevOps with 15 years of experience. My knowledge starts with development, design & architecture and goes till provisioning and operating platforms / infrastructure (Cloud or on-premise).
+      I'm particularly interested in the DevOps culture, Cloud architecture, IaC, automation, scripting and web applications development, microservices and serverless architecture.
+      I really like challenges and I am always ready to train myself on new platforms or technologies. Always Tuned to the latest news on development features, I try to incorporate it into my work according to a precise attention of feasibility, performance enhancement and integration costs.
+
+      Participate on very exciting projects, create and design solutions that meet the needs of customers, are facts that are really grateful and important to me.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc of Sciences in Business Information Technology
+      university: HEG Arc, Neuchâtel
+      time: 2010 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Diploma work: Development of a mobile application for truck drivers integrated with Mercedes Fleetboard system.
+          - Geographical location of all drivers
+          - Driving statistics board
+          - News and information from the company
+          - Instant messaging
+          - Game Design (push drivers to read news/information)
           - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: ES in Computer Science & Business Information
+      university: ESIG
+      time: 2008 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Diploma work: Web application for project management
+    - degree: CFC in Computer Science
+      university: EMT Porrentruy (EHMP)
+      time: 2002 - 2006
+      details: |
+        Extranet and Website development for the fire department (SIS Haute Sorne, Jura)
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: Sep 2019 - Present
+      company: SIX Group AG, Zürich
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Development of a Self-Service Portal for the API Gateway Platform (ReactJS, Springboot APIs)
+          - Development Self-services Automation with Micro Service oriented Architecture (Spring Boot, Flowable, REST, oAuth2.0, MongoDB, Redis, Openshift/Helm)
+          - Development of a complex users data synchronisation hub using Spring batch and Redis to connect two platforms.
+          - Operations for the API Gateway Platform with some regular on call duty.
+          - SCRUM Master
+    - role: IT Business Consultant / <br />DevOps Engineer
+      time: Jun 2018 -  Aug 2019
+      company: SWAROVSKI, Zürich
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Development of a Salt execution module in python for managing SAP Hybris
+        - IaC with Terraform and AWS
+        - Part of building the bridge between business, operations and development
+        - Continuous configuration management, maintenance and extension of IT-infrastructure
+        and application to serve business demands
+        - Automation and scripting
+        - Support of operational processes, maintenance processes and new projects
+        - Support of DevOps toolchain for extending the existing applications
+        - Self-trained on Salt (SaltStack), Terraform and Python
+    - role: Java Developer / <br />SAP CX Developer
+      time: Sep 2012 - May 2018
+      company: Scott Sports SA, Fribourg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Support of operational processes for the eCommerce infrastructure hosted on AWS
+          - Cluster, applications performance monitoring
+          - Issue troubleshooting, tuning and configuration management
+          - Continuous integration and continuous delivery (Jenkins)
+          - Automation & scripting
+        - Hybris Database migration from Oracle to AWS Aurora
+        - Head of architecture and development on the SAP Hybris platform
+        - Project Manager and lead developer: Outdoor Research B2C (Seattle WA, USA)
+          - www.outdoorresearch.com (Redesign & Migration from Magento to SAP Hybris)
+        - Business & Technical analyses for new projects
+        - Java Development on SAP Hybris
+          - B2B / B2C accelerators (sync+async integration via Datahub)
+    - role: Full Stack Web Developer
+      time: Aug 2006 - Jul 2010
+      company: INDC Sàrl, Delémont
+      details: |
+        I worked full time since August 2006 until August 2008 then I started a ES school continuing to work part time at INDC Sàrl. 
+        Development of web applications such as :
+          - Project Management
+          - CRM
+          - Helpdesk Management
+          - Press Website
+          - Development of a framework Intranet / Extranet (Coldfusion)
+          - Developing Applications for République et Canton du Jura (ASP .Net C#)
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Trainings & Courses
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Docker for DevOps – From Development to Production Course
+        tagline: Jun 2019
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Introduction to Ansible Course
+        tagline: Apr 2019
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Serverless for Beginners – Build a Video Sharing App Course
+        tagline: Mar 2019
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: AWS Certified Solutions Architect Associate – Course
+        tagline: Jan 2019
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: AWS Cloud Practitioner Essentials – Course
+        tagline: Dec 2018
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "AWS Re:invent 2017 summit - Bootcamp : Migrate that expensive database to AWS Aurora"
+        tagline: Dec 2017
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Certified ScrumMaster
+        tagline: Jul 2014
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Hybris Developer Training Part. II – Commerce
+        tagline: Sep 2014
+
+      - title: Hybris Developer Training Part. I – Core Platform
+        tagline: Oct 2012
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java, Springboot
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Javascript/Typescript, ReactJS, HTML, CSS
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Python & Go
+        level: 30%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Salt, Ansible
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Docker, Kubernetes / Openshift, Helm
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: APIs, Swagger / OpenAPI 3.0, JWT
+        level: 50%
+
+      - name: Prometheus, Grafana, Splunk
+        level: 30%
+
+      - name: AWS (EC2, S3, CloudFront, code*, Lambda, API Gateway, ECS, ECR) - Terraform
+        level: 70%
+
+      - name: Linux, Ubuntu, Debian, Shell scripting
+        level: 50%
+
+      - name: SAP CX (Formerly known as Hybris)
+        level: 90%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
