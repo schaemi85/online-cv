@@ -85,6 +85,7 @@ experiences:
     - role: Software Engineer
       time: Sep 2019 - Present
       company: SIX Group AG, Zürich
+      logo: six-logo.png
       details: |
           - Development of a Self-Service Portal for the API Gateway Platform (ReactJS, Springboot APIs)
           - Development Self-services Automation with Micro Service oriented Architecture (Spring Boot, Flowable, REST, oAuth2.0, MongoDB, Redis, Openshift/Helm)
@@ -94,6 +95,7 @@ experiences:
     - role: IT Business Consultant / <br />DevOps Engineer
       time: Jun 2018 -  Aug 2019
       company: SWAROVSKI, Zürich
+      logo: swarovski-logo.png
       details: |
         - Development of a Salt execution module in python for managing SAP Hybris
         - IaC with Terraform and AWS
@@ -107,6 +109,7 @@ experiences:
     - role: Java Developer / <br />SAP CX Developer
       time: Sep 2012 - May 2018
       company: Scott Sports SA, Fribourg
+      logo: scott-logo.png
       details: |
         - Support of operational processes for the eCommerce infrastructure hosted on AWS
           - Cluster, applications performance monitoring
@@ -123,6 +126,7 @@ experiences:
     - role: Full Stack Web Developer
       time: Aug 2006 - Jul 2010
       company: INDC Sàrl, Delémont
+      logo: indc-logo.png
       details: |
         I worked full time since August 2006 until August 2008 then I started a ES school continuing to work part time at INDC Sàrl. 
         Development of web applications such as :

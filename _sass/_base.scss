@@ -180,6 +180,9 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
+    .upper-wrapper {
+        margin-bottom: 5px;
+    }
     .job-title, .degree {
         color: $text-color;
         font-size: 16px;
@@ -196,6 +199,13 @@ p {
     .company, .university {
         margin-bottom: 10px;
         color: $text-grey;
+    }
+    .company-logo {
+        float: left;
+        position: relative;
+        max-width: 40px;
+        margin-right: 10px;
+        margin-bottom: auto;
     }
 
     .project-title {

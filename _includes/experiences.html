@@ -14,12 +14,17 @@
 
     <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+      <div class="upper-wrapper">
+        {% if experience.logo %}
+          <img class="company-logo" src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="company logo" />
+        {% endif %}
+        <div class="upper-row">
+            <h3 class="job-title">{{ experience.role }}</h3>
+            <div class="time">{{ experience.time }}</div>
+            <div class="company">{{ experience.company }}</div>
+        </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      </div>
 
     </div><!--//meta-->
 
