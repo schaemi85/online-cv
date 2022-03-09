@@ -88,7 +88,7 @@ experiences:
       logo: six-logo.png
       details: |
           - Development of a Self-Service Portal for the API Gateway Platform (ReactJS, Springboot APIs)
-          - Development Self-services Automation with Micro Service oriented Architecture (Spring Boot, Flowable, REST, oAuth2.0, MongoDB, Redis, Openshift/Helm)
+          - Development Self-services Automation with Service oriented Architecture (Spring Boot, Flowable, REST, oAuth2.0, MongoDB, Redis, Openshift/Helm)
           - Development of a complex users data synchronisation hub using Spring batch and Redis to connect two platforms.
           - Operations for the API Gateway Platform with some regular on call duty.
           - SCRUM Master
@@ -122,7 +122,7 @@ experiences:
           - www.outdoorresearch.com (Redesign & Migration from Magento to SAP Hybris)
         - Business & Technical analyses for new projects
         - Java Development on SAP Hybris
-          - B2B / B2C accelerators (sync+async integration via Datahub)
+          - B2B / B2C accelerators (Both sync & async integrations via Datahub)
     - role: Full Stack Web Developer
       time: Aug 2006 - Jul 2010
       company: INDC Sàrl, Delémont
@@ -135,7 +135,7 @@ experiences:
           - Helpdesk Management
           - Press Website
           - Development of a framework Intranet / Extranet (Coldfusion)
-          - Developing Applications for République et Canton du Jura (ASP .Net C#)
+          - Applications development for République et Canton du Jura (ASP .Net C#)
 projects:
     title: Trainings & Courses
     assignments:
@@ -170,23 +170,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Java, Springboot
+      - name: Java, Springboot, etc.
         level: 90%
 
       - name: Javascript/Typescript, ReactJS, HTML, CSS
         level: 90%
 
       - name: Python & Go
-        level: 30%
+        level: 20%
 
       - name: Salt, Ansible
         level: 50%
 
       - name: Docker, Kubernetes / Openshift, Helm
-        level: 60%
+        level: 70%
 
       - name: APIs, Swagger / OpenAPI 3.0, JWT
-        level: 50%
+        level: 60%
 
       - name: Prometheus, Grafana, Splunk
         level: 30%
@@ -195,10 +195,10 @@ skills:
         level: 70%
 
       - name: Linux, Ubuntu, Debian, Shell scripting
-        level: 50%
+        level: 40%
 
       - name: SAP CX (Formerly known as Hybris)
-        level: 90%
+        level: 60%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
