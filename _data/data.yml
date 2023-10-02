@@ -139,6 +139,9 @@ experiences:
 projects:
     title: Trainings & Courses
     assignments:
+      - title: Kong Gateway Foundations
+        tagline: May 2022
+      
       - title: Docker for DevOps – From Development to Production Course
         tagline: Jun 2019
 
