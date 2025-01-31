@@ -55,6 +55,7 @@ career-profile:
     title: Career Profile
     summary: |
       Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, JavaScript, and Python, with expertise in tools like Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
+      
       Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation frameworks, and self-service platforms that empower teams to operate efficiently and scale effectively.
       Passionate about efficiency and innovation, I thrive on delivering solutions that enhance operational performance while minimizing complexity. With a commitment to continuous improvement, I stay at the forefront of technology trends to ensure seamless integration, scalability, and cost-effectiveness in every project.
 education:
@@ -105,14 +106,14 @@ experiences:
       company: SWAROVSKI, Zürich
       logo: swarovski-logo.png
       details: |
-        • Development of a Saltstack execution module in Python for managing SAP Hybris
-        • IaC with Terraform and AWS
-        • Part of building the bridge between business, operations and development
-        • Continuous configuration management, maintenance and extension of IT-infrastructure
+        - Development of a Saltstack execution module in Python for managing SAP Hybris
+        - IaC with Terraform and AWS
+        - Part of building the bridge between business, operations and development
+        - Continuous configuration management, maintenance and extension of IT-infrastructure
         and application to serve business demands
-        • Automation and scripting
-        • Support of operational processes, maintenance processes and new projects
-        • Support of DevOps toolchain for extending the existing applications
+        - Automation and scripting
+        - Support of operational processes, maintenance processes and new projects
+        - Support of DevOps toolchain for extending the existing applications
     - role: Java Developer / <br />SAP CX Developer
       time: Sep 2012 - May 2018
       company: Scott Sports SA, Fribourg
