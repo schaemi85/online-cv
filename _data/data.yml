@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Emilien Schaffner
-    tagline: Full Stack Developer <br /> DevOps Engineer <br /> & Cloud enthusiast 🚀
+    tagline: Senior Software Engineer <br />Platform Engineering & DevOps<br /> & Cloud enthusiast 🚀
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -54,11 +54,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      With 15 years of experience as a Software Engineer and DevOps. I have a deep understanding of everything from development, design & architecture to provisioning and operating platforms / infrastructure, whether it’s Cloud or on-premise.
-      I'm particularly interested in the DevOps culture, Cloud architecture, IaC, automation, scripting and web applications development, microservices and serverless architecture.
-      I really like challenges and I am always ready to train myself on new platforms or technologies. Always Tuned to the latest news on development features, I try to incorporate it into my work according to a precise attention of feasibility, performance enhancement and integration costs.
-
-      Participate on very exciting projects, create and design solutions that meet the needs of customers, are facts that are really grateful and important to me.
+      Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, JavaScript, and Python, with expertise in tools like Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
+      Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation frameworks, and self-service platforms that empower teams to operate efficiently and scale effectively.
+      Passionate about efficiency and innovation, I thrive on delivering solutions that enhance operational performance while minimizing complexity. With a commitment to continuous improvement, I stay at the forefront of technology trends to ensure seamless integration, scalability, and cost-effectiveness in every project.
 education:
     - degree: BSc of Sciences in Business Information Technology
       university: HEG Arc, Neuchâtel
@@ -82,30 +80,39 @@ education:
       details: |
         Extranet and Website development for the fire department (SIS Haute Sorne, Jura)
 experiences:
-    - role: Software Engineer
-      time: Sep 2019 - Present
+    - role: Senior Software Engineer Automation
+      time: Jan 2024 - Present
       company: SIX Group AG, Zürich
       logo: six-logo.png
       details: |
-          - Development of a Self-Service Portal for the API Gateway Platform (ReactJS, Springboot APIs)
-          - Development Self-services Automation with Service oriented Architecture (Spring Boot, Flowable, REST, oAuth2.0, MongoDB, Redis, Openshift/Helm)
-          - Development of a complex users data synchronisation hub using Spring batch and Redis to connect two platforms.
-          - Operations for the API Gateway Platform with some regular on call duty.
-          - SCRUM Master
+          - Developed Terraform Providers for on-premises resources (API Gateway, Firewall Rules & Objects, ITSM).
+          - Created several Go Client libraries.
+          - Built a pilot enabling Infrastructure as Code (IaC) for SIX on-premises resources.
+          - Designed a solution to deliver infrastructure self-services, IaC, and an Internal Developer Portal, moving towards Platform Engineering.
+          - Contributed to shaping and reviewing architecture documents and establishing automation standards.
+    - role: Software Engineer
+      time: Sep 2019 - Jan 2024
+      company: SIX Group AG, Zürich
+      logo: six-logo.png
+      details: |
+          - Developed a Self-Service Portal for the API Gateway Platform using ReactJS and Spring Boot APIs.
+          - Created self-service automation solution with a microservice-oriented architecture (Spring Boot, Flowable, REST, OAuth2.0, MongoDB, Redis, Openshift/Helm).
+          - Built a complex user data synchronization hub with Spring Batch and Redis to connect two platforms.
+          - Managed operations for the API Gateway Platform, including regular on-call duties.
+          - Served as SCRUM Master
     - role: IT Business Consultant / <br />DevOps Engineer
       time: Jun 2018 -  Aug 2019
       company: SWAROVSKI, Zürich
       logo: swarovski-logo.png
       details: |
-        - Development of a Salt execution module in python for managing SAP Hybris
-        - IaC with Terraform and AWS
-        - Part of building the bridge between business, operations and development
-        - Continuous configuration management, maintenance and extension of IT-infrastructure
+        • Development of a Saltstack execution module in Python for managing SAP Hybris
+        • IaC with Terraform and AWS
+        • Part of building the bridge between business, operations and development
+        • Continuous configuration management, maintenance and extension of IT-infrastructure
         and application to serve business demands
-        - Automation and scripting
-        - Support of operational processes, maintenance processes and new projects
-        - Support of DevOps toolchain for extending the existing applications
-        - Self-trained on Salt (SaltStack), Terraform and Python
+        • Automation and scripting
+        • Support of operational processes, maintenance processes and new projects
+        • Support of DevOps toolchain for extending the existing applications
     - role: Java Developer / <br />SAP CX Developer
       time: Sep 2012 - May 2018
       company: Scott Sports SA, Fribourg
@@ -128,18 +135,25 @@ experiences:
       company: INDC Sàrl, Delémont
       logo: indc-logo.png
       details: |
-        I worked full time since August 2006 until August 2008 then I started a ES school continuing to work part time at INDC Sàrl. 
-        Development of web applications such as :
-          - Project Management
-          - CRM
-          - Helpdesk Management
-          - Press Website
-          - Development of a framework Intranet / Extranet (Coldfusion)
-          - Applications development for République et Canton du Jura (ASP .Net C#)
+        Designed and developed web applications for various business needs, including:
+        - Project Management, CRM, and Helpdesk Management solutions
+        - A Press Website for media publishing
+        - An Intranet/Extranet Framework using ColdFusion
+        - Government applications for République et Canton du Jura (developed in ASP.NET C#)
+        Continued working part-time while attending Superior School of Business Information Technology.
 projects:
-    title: Trainings & Courses
+    title: Courses & Certifications
     assignments:
-      - title: Kong Gateway Foundations
+      - title: 'Microservices with NodeJS and React (Udemy)'
+        tagline: Oct 2024
+
+      - title: 'DevOps Institute – DevOps Foundation Certification'
+        tagline: Apr 2024
+
+      - title: 'Go: The Complete Developer’s Guide (Udemy Course)'
+        tagline: Feb 2024
+
+      - title: Kong Gateway Foundations Courses
         tagline: May 2022
       
       - title: Docker for DevOps – From Development to Production Course
@@ -151,7 +165,7 @@ projects:
       - title: Serverless for Beginners – Build a Video Sharing App Course
         tagline: Mar 2019
 
-      - title: AWS Certified Solutions Architect Associate – Course
+      - title: AWS Solutions Architect Associate – Course
         tagline: Jan 2019
 
       - title: AWS Cloud Practitioner Essentials – Course
@@ -160,7 +174,7 @@ projects:
       - title: "AWS Re:invent 2017 summit - Bootcamp : Migrate that expensive database to AWS Aurora"
         tagline: Dec 2017
 
-      - title: Certified ScrumMaster
+      - title: ScrumMaster Certification
         tagline: Jul 2014
 
       - title: Hybris Developer Training Part. II – Commerce
@@ -173,35 +187,36 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+
       - name: Java, Springboot, etc.
         level: 90%
 
-      - name: Javascript/Typescript, ReactJS, HTML, CSS
+      - name: Javascript/Typescript, React.JS, HTML, CSS
         level: 90%
 
-      - name: Python & Go
+      - name: Go
+        level: 60%
+
+      - name: Python
         level: 20%
 
-      - name: Salt, Ansible
+      - name: APIs Management & Development, Kong API Gateway, OpenAPI 3.0, OAuth2.0, Developer Portal
+        level: 80%
+
+      - name: Platform Engineering, Self-services development, DevOps Culture, Internal Developer Portal
+        level: 70%
+
+      - name: Infrastructure as Code & Cloud - AWS & Terraform
+        level: 70%
+
+      - name: Configuration as Code with Ansible
         level: 50%
 
       - name: Docker, Kubernetes / Openshift, Helm
         level: 70%
 
-      - name: APIs, Swagger / OpenAPI 3.0, JWT
-        level: 60%
-
-      - name: Prometheus, Grafana, Splunk
-        level: 30%
-
-      - name: AWS (EC2, S3, CloudFront, code*, Lambda, API Gateway, ECS, ECR) - Terraform
-        level: 70%
-
-      - name: Linux, Ubuntu, Debian, Shell scripting
-        level: 40%
-
-      - name: SAP CX (Formerly known as Hybris)
-        level: 60%
+      - name: Observability with Prometheus, Grafana & Splunk
+        level: 20%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
