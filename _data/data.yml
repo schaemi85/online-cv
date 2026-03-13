@@ -54,9 +54,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, JavaScript, and Python, with expertise in tools like Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
-      
-      Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation frameworks, and self-service platforms that empower teams to operate efficiently and scale effectively.
+      Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, JavaScript, and Python, with expertise in tools like OpenTofu/Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
+
+      Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation framework, and self-service platform that empower teams to operate efficiently and scale effectively.
+
       Passionate about efficiency and innovation, I thrive on delivering solutions that enhance operational performance while minimizing complexity. With a commitment to continuous improvement, I stay at the forefront of technology trends to ensure seamless integration, scalability, and cost-effectiveness in every project.
 education:
     - degree: BSc of Sciences in Business Information Technology
@@ -86,11 +87,13 @@ experiences:
       company: SIX Group AG, Zürich
       logo: six-logo.png
       details: |
-          - Developed Terraform Providers for on-premises resources (API Gateway, Firewall Rules & Objects, ITSM).
-          - Created several Go Client libraries.
-          - Built a pilot enabling Infrastructure as Code (IaC) for SIX on-premises resources.
-          - Designed a solution to deliver infrastructure self-services, IaC, and an Internal Developer Portal, moving towards Platform Engineering.
-          - Contributed to shaping and reviewing architecture documents and establishing automation standards.
+          - Developed SIX Terraform/OpenTofu Provider enabling Infrastructure as Code (IaC) for abstracted on-premises resources (Kong API Gateway, Tufin Firewall Rules & Objects, BMC Remedy ITSM).
+          -	Created several inner sourced Go Client libraries for the Automation ecosystem.
+          -	Developed a Go Microservice Application Scaffolding with its own CLI supporting initialization, upgrades and deployments.
+          -	Designed a solution to deliver infrastructure streamlined self-services, IaC, and an Internal Developer Portal, moving towards Platform Engineering.
+          -	Contributed to shaping and reviewing architecture documents and establishing automation standards.
+          - Actively participated in the DevOps culture, promoting best practices and continuous improvement across teams.
+          - Prepared and delivered technical presentations and bootcamps to share knowledge and foster a culture of learning within the organization.
     - role: Software Engineer
       time: Sep 2019 - Jan 2024
       company: SIX Group AG, Zürich
@@ -145,6 +148,9 @@ experiences:
 projects:
     title: Courses & Certifications
     assignments:
+      - title: 'Openshift Application Developer v4 (Red Hat)'
+        tagline: Aug 2025
+
       - title: 'Microservices with NodeJS and React (Udemy)'
         tagline: Oct 2024
 
@@ -193,28 +199,28 @@ skills:
         level: 90%
 
       - name: Javascript/Typescript, React.JS, HTML, CSS
-        level: 90%
+        level: 80%
 
       - name: Go
-        level: 60%
+        level: 90%
 
       - name: Python
-        level: 20%
+        level: 10%
 
       - name: APIs Management & Development, Kong API Gateway, OpenAPI 3.0, OAuth2.0, Developer Portal
         level: 80%
 
       - name: Platform Engineering, Self-services development, DevOps Culture, Internal Developer Portal
-        level: 70%
+        level: 80%
 
       - name: Infrastructure as Code & Cloud - AWS & Terraform
-        level: 70%
+        level: 80%
 
       - name: Configuration as Code with Ansible
-        level: 50%
+        level: 40%
 
       - name: Docker, Kubernetes / Openshift, Helm
-        level: 70%
+        level: 80%
 
       - name: Observability with Prometheus, Grafana & Splunk
         level: 20%
