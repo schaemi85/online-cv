@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Emilien Schaffner
-    tagline: Senior Software Engineer <br />Platform Engineering, DevOps<br /> & Cloud enthusiast 🚀
+    tagline: Senior Software Engineer <br />Building APIs, IaC & self-service platforms across Cloud & on-prem<br /> Certified Platform Engineer & DevOps 🚀
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -54,9 +54,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, JavaScript, and Python, with expertise in tools like OpenTofu/Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
+      Experienced Software Engineer specializing in API development, infrastructure automation, and DevOps practices. Proficient in Java, Go, and JavaScript, with working knowledge of Python, and expertise in tools like OpenTofu/Terraform, Ansible, Docker, and Kubernetes for streamlining infrastructure and operations.
 
-      Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation framework, and self-service platform that empower teams to operate efficiently and scale effectively.
+      Skilled in implementing infrastructure-as-code (IaC) solutions, including developing custom Terraform providers to meet unique business requirements. Currently at SIX Group in the Infrastructure and Operations department, I focus on building robust APIs, automation frameworks, and self-service platforms that empower teams to operate efficiently and scale effectively.
 
       Passionate about efficiency and innovation, I thrive on delivering solutions that enhance operational performance while minimizing complexity. With a commitment to continuous improvement, I stay at the forefront of technology trends to ensure seamless integration, scalability, and cost-effectiveness in every project.
 education:
@@ -70,7 +70,6 @@ education:
           - News and information from the company
           - Instant messaging
           - Game Design (push drivers to read news/information)
-          - Bullet point
     - degree: ES in Computer Science & Business Information
       university: ESIG
       time: 2008 - 2010
@@ -88,10 +87,10 @@ experiences:
       logo: six-logo.png
       details: |
           - Developed SIX Terraform/OpenTofu Provider enabling Infrastructure as Code (IaC) for abstracted on-premises resources (Kong API Gateway, Tufin Firewall Rules & Objects, BMC Remedy ITSM).
-          -	Created several inner sourced Go Client libraries for the Automation ecosystem.
-          -	Developed a Go Microservice Application Scaffolding with its own CLI supporting initialization, upgrades and deployments.
-          -	Designed a solution to deliver infrastructure streamlined self-services, IaC, and an Internal Developer Portal, moving towards Platform Engineering.
-          -	Contributed to shaping and reviewing architecture documents and establishing automation standards.
+          - Created several inner sourced Go Client libraries for the Automation ecosystem.
+          - Developed a Go Microservice Application Scaffolding with its own CLI supporting initialization, upgrades and deployments.
+          - Designed a solution to deliver infrastructure streamlined self-services, IaC, and an Internal Developer Portal, moving towards Platform Engineering.
+          - Contributed to shaping and reviewing architecture documents and establishing automation standards.
           - Actively participated in the DevOps culture, promoting best practices and continuous improvement across teams.
           - Prepared and delivered technical presentations and bootcamps to share knowledge and foster a culture of learning within the organization.
     - role: Software Engineer
@@ -148,13 +147,16 @@ experiences:
 projects:
     title: Courses & Certifications
     assignments:
+      - title: 'Platform Engineering Certified Practitioner (platformengineering.org)'
+        tagline: May 2026
+
       - title: 'Openshift Application Developer v4 (Red Hat)'
         tagline: Aug 2025
 
       - title: 'Microservices with NodeJS and React (Udemy)'
         tagline: Oct 2024
 
-      - title: 'DevOps Institute – DevOps Foundation Certification'
+      - title: 'DevOps Foundation v3.4 (DevOps Institute Certification)'
         tagline: Apr 2024
 
       - title: 'Go: The Complete Developer’s Guide (Udemy Course)'
@@ -181,11 +183,11 @@ projects:
       - title: "AWS Re:invent 2017 summit - Bootcamp : Migrate that expensive database to AWS Aurora"
         tagline: Dec 2017
 
-      - title: ScrumMaster Certification
-        tagline: Jul 2014
-
       - title: Hybris Developer Training Part. II – Commerce
         tagline: Sep 2014
+
+      - title: ScrumMaster Certification
+        tagline: Jul 2014
 
       - title: Hybris Developer Training Part. I – Core Platform
         tagline: Oct 2012
@@ -213,8 +215,11 @@ skills:
       - name: Platform Engineering, Self-services development, DevOps Culture, Internal Developer Portal
         level: 80%
 
-      - name: Infrastructure as Code & Cloud - AWS & Terraform
+      - name: Infrastructure as Code & Cloud - Terraform/OpenTofu, AWS & Azure
         level: 80%
+
+      - name: CI/CD & DevOps Toolchain - GitLab CI, Jenkins
+        level: 75%
 
       - name: Configuration as Code with Ansible
         level: 40%
