@@ -86,6 +86,7 @@ experiences:
       company: SIX Group AG, Zürich
       logo: six-logo.png
       details: |
+          - Built a Temporal workflow to automate role and entitlement provisioning, reducing manual ticket handling and enabling self-service access management.
           - Developed SIX Terraform/OpenTofu Provider enabling Infrastructure as Code (IaC) for abstracted on-premises resources (Kong API Gateway, Tufin Firewall Rules & Objects, BMC Remedy ITSM).
           - Created several inner sourced Go Client libraries for the Automation ecosystem.
           - Developed a Go Microservice Application Scaffolding with its own CLI supporting initialization, upgrades and deployments.
