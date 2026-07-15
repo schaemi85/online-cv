@@ -1,0 +1,59 @@
+name: Build CV PDF
+
+# Regenerates Emilien_Schaffner_CV.pdf from _data/data.yml on every relevant push
+# and commits it back. Runs on the gh-pages branch, which is the GitHub Pages source.
+on:
+  push:
+    branches: [gh-pages]
+    paths:
+      - "_data/data.yml"
+      - "assets/images/**"
+      - "scripts/generate_cv_pdf.py"
+      - "scripts/requirements.txt"
+      - ".github/workflows/build-cv-pdf.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-cv-pdf
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # WeasyPrint needs system Pango/Cairo; Liberation + Noto emoji fonts keep
+      # the rendered PDF metrically consistent with local generation.
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 \
+            libharfbuzz0b libffi-dev libjpeg-dev libgdk-pixbuf-2.0-0 \
+            fonts-liberation fonts-noto-color-emoji
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Generate CV PDF
+        run: python scripts/generate_cv_pdf.py
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Emilien_Schaffner_CV.pdf
+          if git diff --staged --quiet; then
+            echo "CV PDF unchanged — nothing to commit."
+          else
+            git commit -m "chore: regenerate CV PDF [skip ci]"
+            git push
+          fi
